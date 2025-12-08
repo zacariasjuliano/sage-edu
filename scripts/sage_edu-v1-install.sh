@@ -1,24 +1,22 @@
 #!/bin/bash
 
-echo "🏫 SAGE Education - Gestão Institucional / ERP"
-echo "Versão: 1.0"
-echo "Módulo: SAGE Education"  
-echo "Desenvolvedor: Zacarias Juliano Capingala *(Homem Marketing)*"
-echo "Data: 21/11/2025"
+echo "🏫 SAGE Education - Gestão Institucional"
+echo "Version: 1.0"
+echo "Module:** Tryton ERP "  
+echo "Developer: Zacarias Juliano Capingala *(Homem Marketing)*"
+echo "Date: 21/11/2025"
 
-echo "🚀 Iniciando instalação do SAGE Edu..."
+echo "🚀 Install SAGE Edu..."
 
 # -----------------------------
-# 1. Instalar PostgreSQL
+# 1. Install PostgreSQL
 # -----------------------------
-echo "📦 Instalando PostgreSQL..."
+echo "📦 Install PostgreSQL"
 sudo apt update
 sudo apt install -y postgresql postgresql-contrib
 
-# -----------------------------
-# 2. Criar utilizador e base de dados
-# -----------------------------
-echo "👤 Criando utilizador e base de dados..."
+
+echo "👤 Create de user profile and the data base"
 
 sudo -u postgres createuser -s sage_edu
 sudo -u postgres psql -c "ALTER ROLE sage_edu WITH PASSWORD 'sage_edu';"
@@ -26,28 +24,26 @@ sudo -u postgres psql -c "ALTER ROLE sage_edu WITH PASSWORD 'sage_edu';"
 sudo -u postgres createdb -O sage_edu sage_edu_db
 
 # -----------------------------
-# 3. Instalar Python + Virtualenv
+# 2. Install Python + Config Virtualenv
 # -----------------------------
-echo "🐍 Configurando ambiente Python..."
+echo "🐍 Install Python + Config Virtualenv"
 sudo apt install -y python3 python3-venv python3-pip
 
-# Criar e ativar ambiente virtual
+
 cd ~
 python3 -m venv sage_education
 cd ~/sage_education
 source ./bin/activate
 
 # -----------------------------
-# 4. Instalar módulos do SAGE Edu
+# 3. Install SAGE Edu
 # -----------------------------
-echo "📚 Instalando módulos do SAGE Edu..."
+echo "📚 Install SAGE Edu Modules"
 pip install --upgrade pip
 pip install akademy-classe #akademy-company #akademy-party #trytond
 
-# -----------------------------
-# 5. Criar arquivo de configuração do Tryton
-# -----------------------------
-echo "📝 Criando arquivo trytond.conf..."
+
+echo "📝 Create the file configuration trytond.conf..."
 
 cat << EOF > trytond.conf
 [database]
@@ -60,15 +56,16 @@ listen = 127.0.0.1:8000
 EOF
 
 # -----------------------------
-# 6. Inicializar base de dados Tryton
+# 4. Inicialize the data base
 # -----------------------------
-echo "🛠 Aplicando módulos ao banco..."
+echo "🛠 Install Modules..."
 
 trytond-admin -c trytond.conf -d sage_edu_db --all
 
-echo "🎉 Instalação concluída!"
-echo "Para iniciar o servidor, execute:"
+echo "🎉 Instalation finish!"
+echo "Now you can run the server, by run:"
 echo "source ./bin/activate && trytond -c trytond.conf"
 
 
+echo "The SAGE Edu is running:"
 source ./bin/activate && trytond -c trytond.conf

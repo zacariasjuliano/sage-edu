@@ -1,7 +1,7 @@
-# 🏫 SAGE Education - Institutional Management / ERP
+# 🏫 SAGE Education - Institutional Management
 
 **Version:** 1.0  
-**Module:** Akademy Party  
+**Module:** Tryton ERP  
 **Developer:** Zacarias Juliano Capingala *(Homem Marketing)*  
 **Date:** 21/11/2025
 
@@ -37,8 +37,10 @@ We host a public demo server where you can try out SAGE Education with different
 ## ⚙️ SAGE Education Modules
 
 **🎓 AMS** - Academic Management System
+
 **🏫 SMS** - School Management System
-**�� EIS** - Educational Information System
+
+**🏢 EIS** - Educational Information System
 
 ---
 
