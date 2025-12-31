@@ -8,4 +8,6 @@ The format as follows the recomendations of [Keep a Changelog](https://keepachan
 ### Added
 - Add support for party-avatar 
 - Add matriculation and confirmation
- 
+
+### Changed
+- Update README 

@@ -23,14 +23,13 @@ We host a public demo server where you can try out SAGE Education with different
 [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
 
 
-| Perfil     | Usuário    | Senha           |
-|------------|------------|-----------------|
-| Student    | aluno      | sage_aluno      |
-| Teacher    | docente    | sage_docente    |
-| Secretary  | secretaria | sage_secretaria |
-| Direction  | direcao    | sage_direcao    |
-| Admin      | admin      | sage_admin      |
-| Admin Eng  | admin_eng  | sage_admin      |
+| Profile    | User      | Password        |
+|------------|-----------|-----------------|
+| Student    | student   | sage_education  |
+| Teacher    | teacher   | sage_education  |
+| Secretary  | secretary | sage_education  |
+| Direction  | direction | sage_education  |
+| Admin      | admin     | sage_admin      |
 
 ---
 
@@ -59,7 +58,7 @@ We host a public demo server where you can try out SAGE Education with different
 If you encounter any errors or require technical support, please contact us through the channels below:
 
 - 📧 **E-mail:** [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
-- 💬 **WhatsApp:** [+244 926 585 345](https://wa.me/244926585345)
+- 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244955868110)
 
 ---
 
@@ -91,6 +90,8 @@ Including user creation and permissions.
 pip install akademy-party
 pip install akademy-company
 pip install akademy-classe
+pip install akademy-matriculation
+pip install akademy-matriculation-confirmation
 ```
 
 * Create Tryton configuration file (trytond.conf)
