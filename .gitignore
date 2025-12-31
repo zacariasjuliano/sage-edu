@@ -2,3 +2,4 @@
 
 db/*
 modules/*
+scripts/sage_edu-install.sh
