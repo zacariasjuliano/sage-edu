@@ -1,9 +1,8 @@
-# 🏫 SAGE Education - Institutional Management
+# 🏫 SAGE Education - Institutional Management / ERP
 
-**Version:** 1.0  
+**Version:** 1.1.x  
 **Module:** Tryton ERP  
 **Developer:** Zacarias Juliano Capingala *(Homem Marketing)*  
-**Date:** 21/11/2025
 
 ---
 
@@ -92,6 +91,7 @@ pip install akademy-company
 pip install akademy-classe
 pip install akademy-matriculation
 pip install akademy-matriculation-confirmation
+pip install akademy-dashboard
 ```
 
 * Create Tryton configuration file (trytond.conf)

@@ -1,10 +1,9 @@
 #!/bin/bash
 
 echo "🏫 SAGE Education - Institutional Management"
-echo "Version: 1.1"
+echo "Version: 1.1.x"
 echo "Module:** Tryton ERP"  
 echo "Developer: Zacarias Juliano Capingala *(Homem Marketing)*"
-echo "Date: 01/12/2025"
 
 echo "🚀 Install SAGE Edu..."
 
@@ -47,6 +46,7 @@ pip install akademy-company
 pip install akademy-classe
 pip install akademy-matriculation
 pip install akademy-matriculation-confirmation
+pip install akademy-dashboard
 #pip install trytond==6.8.17
 pip install trytond-currency==6.8.1
 pip install trytond-party-avatar==6.8.0
