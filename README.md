@@ -2,9 +2,11 @@
 
 **Version:** 1.1.x  
 **Module:** Tryton ERP  
-**Developer:** Zacarias Juliano Capingala *(Homem Marketing)*  
+**Developer:** Zacarias Juliano Capingala   
+
 
 ---
+
 
 ## 📘 About the Project
 
@@ -30,7 +32,9 @@ We host a public demo server where you can try out SAGE Education with different
 | Direction  | direction | sage_education  |
 | Admin      | admin     | sage_admin      |
 
+
 ---
+
 
 ## ⚙️ SAGE Education Modules
 
@@ -40,26 +44,92 @@ We host a public demo server where you can try out SAGE Education with different
 
 **🏢 EIS** - Educational Information System
 
+### 🎯 Core Purpose
+
+SAGE Education centralizes **all aspects of school management**, including:
+- Institutional organization
+- Academic structure and courses
+- Student enrollment and transfers
+- Class management, teachers, and attendance
+- Evaluations and metrics
+- Reports, dashboards, and user interfaces
+
+### ✨ Modules Overview
+
+#### 🏛️ Akademy Party – Base Party Management
+- Extend Tryton `Party` model for students, employees, teachers, and institutions
+- Standardized base for other modules
+- Data consistency and reusability
+
+#### 🏢 Akademy Company – Institutional Management
+- Manage institutions, companies, and parties
+- Employee registration and roles
+- Student registration and supervisor relationships
+- Institutional reporting
+
+#### 🏫 Akademy Class – Academic & Class Management
+- Academic levels, areas, courses, and classes
+- Class schedules, classrooms, and lessons
+- Teacher and student assignments
+- Attendance tracking for students and teachers
+- Study plans, disciplines, evaluation metrics
+- Academic reports (class, teacher, student, study plan)
+
+#### 📝 Akademy Matriculation – Enrollment & Applications
+- Candidate registration and application management
+- Evaluation of applications according to defined criteria
+- Student transfers (internal and external)
+- Association of students to courses and disciplines
+- Enrollment reports, transfer reports, equivalence reports
+
+#### ✅ Akademy Matriculation Confirmation – Enrollment Confirmation
+- Wizard-based confirmation of new matriculations
+- Modification of existing matriculations
+- Stepwise, auditable workflows for enrollment
+
+#### 📊 Akademy Dashboard – User Interface & Dashboards
+- Main menu creation for SAGE Education
+- Personalized dashboards for each user type
+- Display of metrics, notifications, and tasks
+- Integration with academic and administrative modules
+
+
 ---
 
 
-## 🌐 Homepage
+## 🌍 Target Audience
+
+- Educational institutions
+- System administrators
+- Open-source contributors
+- Governments and NGOs
+- Educational software integrators
+
+
+### 🌐 Homepage
 
 **Website:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
-**App:** [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
-**Doc:** [docs.comunidadedosaber.ao](https://docs.comunidadedosaber.ao)  
 **E-mail:** [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)
+
 
 ---
 
-## 💬 Technical Support
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Please open an issue or submit a pull request following the SAGE Edu contribution guidelines.
+
+### 💬 Technical Support
 
 If you encounter any errors or require technical support, please contact us through the channels below:
 
 - 📧 **E-mail:** [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
 - 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244955868110)
 
+
 ---
+
 
 ## 📋 Installation
 
@@ -69,7 +139,6 @@ Before starting, make sure you have one of the following components installed in
 - [Tryton Server](https://www.tryton.org/)
 - [Tryton Desktop Client](https://www.tryton.org/)
 - [Tryton Web Client](https://www.npmjs.com/package/tryton-sao)
-
 
 
 ### 🔧 PIP Installation
@@ -99,5 +168,4 @@ pip install akademy-dashboard
 [database]
 uri = postgresql://usuario:senha@localhost:5432/banco_de_dados
 ```
-
 
