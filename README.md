@@ -137,13 +137,13 @@ If you encounter any errors or require technical support, please contact us thro
 
 To install SAGE Edu, simply download the installation script and run it on your server:
 
-👉 [Download Installation Script](https://raw.githubusercontent.com/zacariasjuliano/sage-edu/refs/heads/main/scripts/sage_education-install.sh)
+👉 [Download Installation Script](https://raw.githubusercontent.com/zacariasjuliano/sage-edu/refs/heads/main/scripts/sage_edu-install.sh)
 
 Then, make the script executable and run:
 
 ```bash
-chmod +x sage_education-install.sh
-./sage_education-install.sh
+chmod +x sage_edu-install.sh
+./sage_edu-install.sh
 ```
 
 
