@@ -1,8 +1,8 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
-**Version:** 1.1.x  
-**Module:** Tryton ERP  
-**Developer:** Zacarias Juliano Capingala   
+**Version:** 1.2.x  
+**Module:** Tryton ERP Version 7.0 
+**Developer:** Zacarias Juliano Capingala (FPC)  
 
 
 ---
@@ -23,6 +23,7 @@ We hope you find **SAGE Education** motivating and inspiring, and we look forwar
 We host a public demo server where you can try out SAGE Education with different access profiles:
 [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
 
+![Alternative text](img/sage-edu.png)
 
 | Profile    | User      | Password        |
 |------------|-----------|-----------------|
@@ -108,7 +109,8 @@ SAGE Education centralizes **all aspects of school management**, including:
 
 ### 🌐 Homepage
 
-**Website:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
+**Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
+**Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
 **E-mail:** [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)
 
 
@@ -131,41 +133,17 @@ If you encounter any errors or require technical support, please contact us thro
 ---
 
 
-## 📋 Installation
+## 📦 SAGE Edu Installation
 
+To install SAGE Edu, simply download the installation script and run it on your server:
 
-Before starting, make sure you have one of the following components installed in version 6.8.14 to access the client environment:
+👉 [Download Installation Script](https://raw.githubusercontent.com/zacariasjuliano/sage-edu/refs/heads/main/scripts/sage_edu-install.sh)
 
-- [Tryton Server](https://www.tryton.org/)
-- [Tryton Desktop Client](https://www.tryton.org/)
-- [Tryton Web Client](https://www.npmjs.com/package/tryton-sao)
-
-
-### 🔧 PIP Installation
-
-It is also possible to install SAGE Edu using pip.
-To do this, you will need:
-
-* Have PostgreSQL installed and configured
-
-Including user creation and permissions.
-
-* Create the database
-
-* Install modules throw PIP
+Then, make the script executable and run:
 
 ```bash
-pip install akademy-party
-pip install akademy-company
-pip install akademy-classe
-pip install akademy-matriculation
-pip install akademy-matriculation-confirmation
-pip install akademy-dashboard
+chmod +x sage_edu-install.sh
+./sage_edu-install.sh
 ```
 
-* Create Tryton configuration file (trytond.conf)
-```bash
-[database]
-uri = postgresql://usuario:senha@localhost:5432/banco_de_dados
-```
 

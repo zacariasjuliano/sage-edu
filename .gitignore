@@ -2,4 +2,6 @@
 
 db/*
 modules/*
-scripts/sage_edu-install.sh
+scripts/sage_education-install.sh
+scripts/sage_edu-v1-install.sh
+scripts/sage_edu-v1.1-install.sh
