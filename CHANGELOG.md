@@ -4,6 +4,13 @@ All changes made in **SAGE Education** project will be listed in this file.
 The format as follows the recomendations of [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/). And Semantic Versioning
 
 
+## [1.2.0] - 2026-03-02
+### Added
+- Added i18n in website
+
+### Changed
+- Website Layout 
+
 ## [1.1.1] - 2026-01-14
 ### Added
 - Added website
