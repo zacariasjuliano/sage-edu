@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "🏫 SAGE Education - Institutional Management"
-echo "Version: 1.2.x"
+echo "Version: 1.3.x"
 echo "Module:** Tryton ERP Version 7.0"  
 echo "Developer: Zacarias Juliano Capingala *FPC*"
 
@@ -47,6 +47,7 @@ pip install akademy-classe~=1.1.0
 pip install akademy-matriculation~=1.1.0
 pip install akademy-matriculation-confirmation~=1.1.0
 pip install akademy-dashboard~=1.1.0
+pip install akademy-classe-evaluation~=1.3.0
 pip install trytond-currency==7.0.0
 pip install trytond-party-avatar==7.0.0
 pip install proteus==7.0.0
