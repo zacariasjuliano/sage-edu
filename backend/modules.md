@@ -1,6 +1,6 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
-**Version:** 1.2.x  
+**Version:** 1.3.x  
 **Module:** Tryton ERP Version 7.0   
 **Developer:** Zacarias Juliano Capingala (FPC)  
 
@@ -59,6 +59,7 @@ pip install akademy-classe~=1.1.0
 pip install akademy-matriculation~=1.1.0
 pip install akademy-matriculation-confirmation~=1.1.0
 pip install akademy-dashboard~=1.1.0
+pip install akademy-classe-evaluation~=1.3.0
 pip install trytond-currency==7.0.0
 pip install trytond-party-avatar==7.0.0
 pip install trytond-bank==7.0.0
@@ -83,12 +84,14 @@ Please open an issue or submit a pull request following the SAGE Edu contributio
 [https://github.com/zacariasjuliano/akademy-matriculation](https://github.com/zacariasjuliano/akademy-matriculation)   
 [https://github.com/zacariasjuliano/akademy-matriculation-confirmation](https://github.com/zacariasjuliano/akademy-matriculation-confirmation)   
 [https://github.com/zacariasjuliano/akademy-dashboard](https://github.com/zacariasjuliano/akademy-dashboard)
+[https://github.com/zacariasjuliano/akademy-classe-evaluation](https://github.com/zacariasjuliano/akademy-classe-evaluation)
 
 ### 💬 Technical Support
 
 If you encounter any errors or require technical support, please contact us through the channels below:
 
-- 📧 **E-mail:** [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)  
-**E-mail:** [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)  
+- 📧 **E-mail:** 
+    -   [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
+    -   [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)  
 - 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244955868110)
 

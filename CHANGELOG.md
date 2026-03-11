@@ -4,6 +4,11 @@ All changes made in **SAGE Education** project will be listed in this file.
 The format as follows the recomendations of [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/). And Semantic Versioning
 
 
+## [1.3.0] - 2026-03-08
+### Changed
+- Update project to version 1.3
+
+
 ## [1.2.0] - 2026-01-26
 ### Changed
 - Change Tryton version from 6.8 to 7.0
