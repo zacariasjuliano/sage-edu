@@ -127,7 +127,8 @@ const translations = {
             user_teacher: "👨‍🏫 Professor",
             user_secretary: "📋 Secretaria",
             user_direction: "👔 Direção",
-            user_admin_pt: "⚙️ Administrador"
+            user_admin_pt: "⚙️ Administrador",
+            user_admin: "⚙️ admin_pt"
         },
         suporte: {
             suporte: "Precisa de Ajuda?",
@@ -201,7 +202,7 @@ const translations = {
             price_table: "Não trabalhamos com tabelas de preços fixas. Cada instituição tem a sua realidade orçamental, técnica e geográfica. O nosso processo começa sempre por uma conversa.",
         },
         footer: {
-            version: "SAGE <span>Edu</span> versão 1.2",
+            version: "SAGE <span>Edu</span> versão 1.3",
             community: "Comunidade do Saber",
             license: "Free & Open Source",
             github: "📦 GitHub",
@@ -330,7 +331,8 @@ const translations = {
             user_teacher: "👨‍🏫 Teacher",
             user_secretary: "📋 Secretary",
             user_direction: "👔 Direction",
-            user_admin_pt: "⚙️ Administrator"
+            user_admin_pt: "⚙️ Administrator",
+            user_admin: "⚙️ admin"
         },
         suporte: {
             suporte: "Need help?",
@@ -404,7 +406,7 @@ const translations = {
             price_table: "We don't work with fixed price lists. Each institution has its own budgetary, technical, and geographical realities. Our process always begins with a conversation.",
         },
         footer: {
-            version: "SAGE <span>Edu</span> version 1.2",
+            version: "SAGE <span>Edu</span> version 1.3",
             community: "Comunidade do Saber",
             license: "Free & Open Source",
             github: "📦 GitHub",
@@ -533,7 +535,8 @@ const translations = {
             user_teacher: "👨‍🏫 Professeur",
             user_secretary: "📋 Secrétaire",
             user_direction: "👔 Direction",
-            user_admin_pt: "⚙️ Administrateur"
+            user_admin_pt: "⚙️ Administrateur",
+            user_admin: "⚙️ admin_fr"
         },
         suporte: {
             suporte: "Besoin d'aide ?",
@@ -607,7 +610,7 @@ const translations = {
             price_table: "Nous ne travaillons pas avec des tarifs fixes. Chaque établissement a ses propres contraintes budgétaires, techniques et géographiques. Notre démarche commence toujours par un échange.",
         },
         footer: {
-            version: "SAGE <span>Edu</span> version 1.2",
+            version: "SAGE <span>Edu</span> version 1.3",
             community: "Comunidade do Saber",
             license: "Gratuit & Open Source",
             github: "📦 GitHub",
