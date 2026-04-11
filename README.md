@@ -1,8 +1,8 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
-**Version:** 1.3.x  
-**Module:** Tryton ERP Version 7.0 
-**Developer:** Zacarias Juliano Capingala *(FPC)*     
+**Module:** AMS & SMS   
+**Version:** 1.4.x  
+**Author:** Zacarias Juliano Capingala  *(FPC)*        
 
 
 ---
@@ -23,7 +23,6 @@ We hope you find **SAGE Education** motivating and inspiring, and we look forwar
 We host a public demo server where you can try out SAGE Education with different access profiles:
 [sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)  
 
-![Alternative text](img/sage-edu.png)
 
 | Profile    | User      | Password        |
 |------------|-----------|-----------------|
@@ -108,12 +107,9 @@ SAGE Education centralizes **all aspects of school management**, including:
 
 
 ### 🌐 Homepage
-  
-**Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**App:** [sage.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**Docs:** [docs.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
-**PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)
+
+**Website:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
+**E-mail:** [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)
 
 
 ---
@@ -128,26 +124,48 @@ Please open an issue or submit a pull request following the SAGE Edu contributio
 
 If you encounter any errors or require technical support, please contact us through the channels below:
 
-- 📧 **E-mail:** 
-    -   [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
-    -   [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)   
+- 📧 **E-mail:** [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
 - 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244955868110)
 
 
 ---
 
 
-## 📦 SAGE Edu Installation
+## 📋 Installation
 
-To install SAGE Edu, simply download the installation script and run it on your server:
 
-👉 [Download Installation Script](https://raw.githubusercontent.com/zacariasjuliano/sage-edu/refs/heads/main/scripts/sage_edu-install.sh)
+Before starting, make sure you have one of the following components installed in version 6.8.14 to access the client environment:
 
-Then, make the script executable and run:
+- [Tryton Server](https://www.tryton.org/)
+- [Tryton Desktop Client](https://www.tryton.org/)
+- [Tryton Web Client](https://www.npmjs.com/package/tryton-sao)
+
+
+### 🔧 PIP Installation
+
+It is also possible to install SAGE Edu using pip.
+To do this, you will need:
+
+* Have PostgreSQL installed and configured
+
+Including user creation and permissions.
+
+* Create the database
+
+* Install modules throw PIP
 
 ```bash
-chmod +x sage_edu-install.sh
-./sage_edu-install.sh
+pip install akademy-party
+pip install akademy-company
+pip install akademy-classe
+pip install akademy-matriculation
+pip install akademy-matriculation-confirmation
+pip install akademy-dashboard
 ```
 
+* Create Tryton configuration file (trytond.conf)
+```bash
+[database]
+uri = postgresql://usuario:senha@localhost:5432/banco_de_dados
+```
 
