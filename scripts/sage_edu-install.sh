@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "🏫 SAGE Education - Institutional Management"
-echo "Version: 1.3.x"
-echo "Module:** Tryton ERP Version 7.0"  
-echo "Developer: Zacarias Juliano Capingala *FPC*"
+echo "Version: 1.4.x"
+echo "Module:** AMS & SMS"  
+echo "Author: Zacarias Juliano Capingala *FPC*"
 
 echo "🚀 Install SAGE Edu..."
 
@@ -30,7 +30,7 @@ echo "🐍 Install Python + Config Virtualenv"
 sudo apt install -y python3 python3-venv python3-pip
 
 cd ~
-python3 -m venv sage_education
+#python3 -m venv sage_education
 cd ~/sage_education
 source ./bin/activate
 
@@ -41,13 +41,13 @@ source ./bin/activate
 # -----------------------------
 echo "📚 Install SAGE Edu Modules"
 pip install --upgrade pip
-pip install akademy-party~=1.1.0
-pip install akademy-company~=1.1.0
-pip install akademy-classe~=1.1.0
-pip install akademy-matriculation~=1.1.0
-pip install akademy-matriculation-confirmation~=1.1.0
-pip install akademy-dashboard~=1.1.0
-pip install akademy-classe-evaluation~=1.3.0
+pip install akademy-party~=7.0.0
+pip install akademy-company~=7.0.0
+pip install akademy-classe~=7.0.0
+pip install akademy-classe-evaluation~=7.0.0
+pip install akademy-matriculation~=7.0.0
+pip install akademy-matriculation-confirmation~=7.0.0
+pip install akademy-dashboard~=7.0.0
 pip install trytond-currency==7.0.0
 pip install trytond-party-avatar==7.0.0
 pip install proteus==7.0.0
