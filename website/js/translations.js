@@ -25,9 +25,9 @@ const translations = {
             github: "📦 GitHub"
         },
         lang: {
-            pt: "🇵🇹 Português",
-            en: "🇬🇧 English",
-            fr: "🇫🇷 Français"
+            pt: "🇵🇹 PT",
+            en: "🇬🇧 EN",
+            fr: "🇫🇷 FR"
         },
         stats_bar: {
             modules: "Módulos Integrados",
@@ -202,7 +202,7 @@ const translations = {
             price_table: "Não trabalhamos com tabelas de preços fixas. Cada instituição tem a sua realidade orçamental, técnica e geográfica. O nosso processo começa sempre por uma conversa.",
         },
         footer: {
-            version: "SAGE <span>Edu</span> versão 1.3",
+            version: "SAGE <span>Edu</span> versão 1.4",
             community: "Comunidade do Saber",
             license: "Free & Open Source",
             github: "📦 GitHub",
@@ -229,9 +229,9 @@ const translations = {
             github: "📦 GitHub"
         },
         lang: {
-            pt: "🇵🇹 Portuguese",
-            en: "🇬🇧 English",
-            fr: "🇫🇷 French"
+            pt: "🇵🇹 PT",
+            en: "🇬🇧 EN",
+            fr: "🇫🇷 FR"
         },
         stats_bar: {
             modules: "Integrated Modules",
@@ -406,7 +406,7 @@ const translations = {
             price_table: "We don't work with fixed price lists. Each institution has its own budgetary, technical, and geographical realities. Our process always begins with a conversation.",
         },
         footer: {
-            version: "SAGE <span>Edu</span> version 1.3",
+            version: "SAGE <span>Edu</span> version 1.4",
             community: "Comunidade do Saber",
             license: "Free & Open Source",
             github: "📦 GitHub",
@@ -433,9 +433,9 @@ const translations = {
             github: "📦 GitHub"
         },
         lang: {
-            pt: "🇵🇹 Portugais",
-            en: "🇬🇧 Anglais",
-            fr: "🇫🇷 Français"
+            pt: "🇵🇹 PT",
+            en: "🇬🇧 EN",
+            fr: "🇫🇷 FR"
         },
         stats_bar: {
             modules: "Modules intégrés",
@@ -610,7 +610,7 @@ const translations = {
             price_table: "Nous ne travaillons pas avec des tarifs fixes. Chaque établissement a ses propres contraintes budgétaires, techniques et géographiques. Notre démarche commence toujours par un échange.",
         },
         footer: {
-            version: "SAGE <span>Edu</span> version 1.3",
+            version: "SAGE <span>Edu</span> version 1.4",
             community: "Comunidade do Saber",
             license: "Gratuit & Open Source",
             github: "📦 GitHub",
